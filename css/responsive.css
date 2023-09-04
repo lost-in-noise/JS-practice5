@@ -1,0 +1,11 @@
+@media (max-width: 990px) {
+    .navigation {
+        display: none;
+    }
+    .burger-menu {
+        display: flex;
+    }
+    .button-black {
+        display: none;
+    }
+}
