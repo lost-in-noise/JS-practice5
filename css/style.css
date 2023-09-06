@@ -5,7 +5,7 @@
     height: 20px;
     position: absolute;
     right: 15px;
-    top: 10px;
+    top: 15px;
     display: none;
 }
 .bar {
@@ -54,8 +54,8 @@
     background-color: black;
     color: #F3F3F3;
     border: none;
-    border-radius: 32px;
-    width: 100px;
+    /* border-radius: 32px; */
+    width: 64px;
     height: 48px;
     line-height: 24px;
     font-size: 16px;
