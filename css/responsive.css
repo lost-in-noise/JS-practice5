@@ -2,10 +2,17 @@
     .navigation {
         display: none;
     }
+    
     .burger-menu {
         display: flex;
     }
     .button-black {
         display: none;
     }
+    /* .burger-menu.active + .mobileNav { 
+        display: block; 
+    } */
+    
+    
+
 }
