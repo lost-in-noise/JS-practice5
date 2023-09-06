@@ -7,16 +7,18 @@
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
   </head>
-  <body class="positions">
+  <body>
     <header class="header-block">
-      <div class="flex-header">
+      <div class="flex-header" id="navDiv">
         <a class="logo" href="index.html">
           <img src="images/js01-svgrepo-com.svg" alt="js" />
         </a>
-        <nav class="navigation">
+        <nav class="navigation" id="navBar">
           <ul class="nav-ul">
             <li><a class="li" href="#">News</a></li>
             <li><a class="li" href="#">FAQ</a></li>
@@ -25,8 +27,7 @@
           </ul>
         </nav>
         <button class="button-black" type="button">Action</button>
-       
-        <div class="burger-menu">
+        <div class="burger-menu" id="burgerBar">
           <div class="bar"></div>
           <div class="bar"></div>
           <div class="bar"></div>
@@ -34,28 +35,16 @@
       </div>
     </header>
     <main>
-        <!-- <div class="mobileNav">
-            <ul class="mob-ul">
-                <li><a class="mob-li" href="#">News</a></li>
-                <li><a class="mob-li" href="#">FAQ</a></li>
-                <li><a class="mob-li" href="#">About Us</a></li>
-                <li><a class="mob-li" href="#">Contact</a></li>
-            </ul>
-        </div> -->
-        <section>
-            <h2>To Do List</h2>
-            <form action="" class="form-wraper">
-                <input type="text" class="input-form">
-                <button class="btn">Add Item</button>
-            </form>
-           
-
-            <ul class="ul-list"></ul>
-
-            <button class="clearList">Clear All</button>
-        </section>
+      <section>
+        <h2>To Do List</h2>
+        <form action="" class="form-wraper">
+          <input type="text" class="input-form" />
+          <button class="btn">Add Item</button>
+        </form>
+        <ul class="ul-list"></ul>
+        <button class="clearList">Clear All</button>
+      </section>
     </main>
-    
     <script src="script.js"></script>
   </body>
 </html>
